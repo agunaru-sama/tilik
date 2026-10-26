@@ -17,6 +17,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="orb orb-b" />
         </div>
         {children}
+      <body>
+        {children}
+        <footer className="py-6 text-center text-sm opacity-70">
+          © {new Date().getFullYear()} gennalbi. Hak cipta dilindungi.
+        </footer>
+      </body>
       </body>
     </html>
   );
