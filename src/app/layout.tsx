@@ -21,7 +21,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           © {new Date().getFullYear()} gennalbi. Hak cipta dilindungi.
         </footer>
       </body>
-      </body>
     </html>
   );
 }
