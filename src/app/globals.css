@@ -462,10 +462,14 @@ p {
 }
 
 .site-footer {
-  position: relative;
-  z-index: 1;
-  padding: 1.5rem 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  padding: 0.75rem 0;
   text-align: center;
   font-size: 0.875rem;
   color: #8b94a7;
+  pointer-events: none;
 }
