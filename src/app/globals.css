@@ -460,3 +460,12 @@ p {
   outline: 2px solid var(--blue-hi);
   outline-offset: 3px;
 }
+
+.site-footer {
+  position: relative;
+  z-index: 1;
+  padding: 1.5rem 0;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #8b94a7;
+}
