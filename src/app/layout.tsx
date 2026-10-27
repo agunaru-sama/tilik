@@ -18,7 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </div>
         {children}
         <footer className="site-footer">
-          © {new Date().getFullYear()} gennalbi. Hak cipta dilindungi.
+          © {new Date().getFullYear()} Nuzulin Ladayka. Hak cipta dilindungi.
         </footer>
       </body>
     </html>
